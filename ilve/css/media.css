@@ -1,0 +1,690 @@
+/* Media Queries */
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+	.about__text {
+	    width: 500px;
+	}
+
+	.privilege-item__text {
+	    margin-top: 35px;
+	}
+
+	.offer__logo {
+  		 margin-top: 130px;
+	}
+
+	.about__line {
+	    width: 200px;
+	}
+
+	.privilege__line {
+	    width: 200px;
+	}
+
+	.renovation__line_right {
+	    margin-left: 0px; 
+	}
+
+	.renovation__line {
+	    width: 200px;
+	}
+
+	.scheme__line {
+    	width: 200px;
+	}
+
+	.scheme__line_right {
+    	margin-left: 0px;
+	}
+
+	.contacts__line {
+    	width: 246px;
+	}
+
+	.contacts__line_right {
+    	margin-left: -50px;
+	}
+
+	.contacts__wrap span {
+		font-size: 23px;
+	}
+
+	.contacts__tel {
+		font-size: 23px;
+	}
+
+	.contacts__mail {		
+		font-size: 23px;
+	}
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+	.offer__title {
+	    line-height: 81px;
+	}
+
+	.offer__wrap {
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+
+	.offer__title {
+    	width: 720px;
+    	text-align: center;
+    }
+
+    .offer__logo {
+	    margin-top: 25px;
+	}
+
+	.offer__text {
+    	width: 528px;
+    	text-align: center;
+    }
+
+    .form-wrapper {
+	    width: 352px;
+	    height: 368px;
+	    padding-top: 29px;
+	    margin: 0 auto;
+	}
+
+	.offer {
+	    -webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 50% 100%, 0 92%);
+	    clip-path: polygon(0 0, 100% 0, 100% 92%, 50% 100%, 0 92%);
+	}
+
+	.about__line {
+	    width: 136px;
+	}
+
+	.about__text {
+	    width: 100%;
+	}
+
+	.privilege__line{
+	    width: 136px;
+	    margin-left: -25px;
+	}
+
+	.renovation__line {
+		width: 136px;
+	}
+
+	.renovation__line_right {
+    	margin-left: -30px;
+	}
+
+	.renovation__line_left {
+    	margin-left: -15px;
+	}
+
+	.renovation__subtitle {
+	    margin-bottom: 55px;
+	}
+
+	.renovation__block-text_right {
+	    padding-left: 0px;
+	    padding-right: 42px;
+	}
+
+	.renovation__block-text_left .button {
+		margin-right: -20px;
+	}
+
+	.renovation__block-text_left {
+	    width: 475px;
+	}
+
+	.renovation__block-text_right .renovation__subtitle {
+	    text-align: center;
+	}
+
+	.scheme__line {
+		width: 136px;
+	}
+
+	.scheme__line_right {
+	    margin-left: -30px;
+	}
+
+	.scheme__line_left {
+    	margin-left: -15px;
+	}
+
+	.consultation .form-wrapper {
+    	height: 429px;
+    	padding-top: 41px;
+    }
+
+    .contacts__line {
+    	width: 136px;
+    }
+
+    .contacts__wrap_graph {
+    	margin-top: 30px;
+    }
+
+    .order-up {
+    	order: 1;
+    }
+
+    .order {
+    	order: 2;
+    }
+
+    .footer__tel {
+	    text-align: right;
+	}
+
+	.footer__phone-wrap img {
+    	margin-right: -17px;
+    	margin-left: 40px;
+	}
+
+	.footer__button {
+	    margin: 0 auto;
+	}
+
+	.offer {
+    	-webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 50% 100%, 0 96%);
+    	clip-path: polygon(0 0, 100% 0, 100% 96%, 50% 100%, 0 96%);
+	}
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+	.nav__tel {
+	    width: 200px;
+	    height: 20px;
+	    color: #fdfbfb;
+	    font-family: 'PT Sans';
+	    font-size: 21px;
+	    font-weight: 700;
+	    line-height: 27px;
+	    text-transform: uppercase;
+	    letter-spacing: 1.26px;
+	    margin: 0 auto;
+	    display: flex;
+	}
+
+	.nav__btn {
+	    margin-left: 270px;
+	    margin-bottom: 30px;
+	}
+
+	.nav__wrap-logo img {
+	    width: 200px;
+    	margin-bottom: -60px;
+	}
+
+	.offer__title {
+	    width: 100%;
+	    text-align: center;
+		font-family: "PT Sans";
+		font-size: 72px;
+		font-weight: 700;
+		line-height: 69px;
+		text-transform: uppercase;
+		color: #1a0443;
+		letter-spacing: 4.32px;
+	}
+
+	.offer__logo {
+	    margin-top: 75px;
+	}
+
+	.line {
+    	width: 282px;
+	}
+
+	.offer {
+    	padding-bottom: 59px;
+    }
+
+    .about__line_left {
+	    display: none;
+	}
+
+	.about__line_right {
+		width: 282px;
+		margin: 0 auto;
+    	display: flex;
+    	margin-bottom: 33px;
+	}
+
+	.about__title {
+       margin-bottom: 0px; 
+	}
+
+	.about__subtitle {
+    	width: 160px;
+    }
+
+    .about__list {
+    	margin-top: 0px;
+    }
+
+    .privilege__line_left {
+    	display: none;
+	}
+
+	.privilege__line_right {
+	    width: 282px;
+	    margin: 0 auto;
+	    display: flex;
+	    margin-bottom: 16px;
+	}
+
+	.privilege__title {
+	    margin-bottom: 0px;
+	}
+
+	.privilege__text {
+	    text-align: center;
+	    margin-top: 10px;
+	}
+
+	.renovation__line_left {
+    	display: none;
+	}
+
+	.renovation__line_right {
+	    margin: 0 auto;
+	    width: 282px;
+	    display: flex;
+	}
+
+	.renovation__list {
+    	margin-top: 41px;
+	}
+
+	.renovation__item {
+	    display: flex;
+	    flex-direction: column;
+	}
+
+	.renovation__block-img_one {
+	    width: 100%;
+	    background: #000 url(../img/renovation-1.jpg) no-repeat center top / cover;
+	    height: 279px;
+	}
+
+	.renovation__block-text_right {
+	    padding-left: 0px;
+	    padding-right: 0px;
+	}
+
+	.renovation__block-text .renovation__subtitle {
+	    text-align: center;
+	    width: 310px;
+	    margin: 0 auto;
+	    margin-top: 77px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+
+	.renovation__block-text {
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    justify-content: center;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+
+	.renovation__block-text .button {
+	    margin-top: 50px;
+	}
+
+	.renovation__block-img_one {
+	    width: 100%;
+	    height: 279px;
+	    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);
+	    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);
+	}
+
+	.renovation__block-text_left {
+	    width: 475px;
+	    order: 2;
+	}
+
+	.renovation__block-img_two, 
+	.renovation__block-img_three, 
+	.renovation__block-img_three,
+	.renovation__block-img_four,
+	.renovation__block-img_five,
+	.renovation__block-img_six {
+	    height: 279px;
+	    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);
+	    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);
+	    width: 100%;
+	}
+
+	.renovation__item {
+	    padding-bottom: 97px;
+	}
+
+	.renovation__block-text_left .button {
+	    margin-right: 0px; 
+	}
+
+	.scheme__line_left {
+	    display: none;
+	}
+
+	.scheme__line_right {
+	    width: 282px;
+	    margin: 0 auto;
+	    display: flex;
+	    margin-bottom: 20px;
+	}
+
+	.scheme__title {
+	    margin-bottom: 0px;
+	}
+
+	.consultation .form-wrapper {
+	    height: 417px;
+	    width: 370px;
+	    padding-top: 37px;
+	}
+
+	.contacts__line_left {
+	    display: none;
+	}
+
+	.contacts__line_right {
+		width: 282px;
+		margin: 0 auto;
+		display: flex;
+		margin-bottom: 20px;
+	}
+
+	.contacts__title {
+	    margin-bottom: 0px;
+	}
+
+	.contacts__tel {
+	    font-size: 25px;
+	}
+
+	.contacts__mail {
+	    font-size: 25px;
+	}
+
+	.contacts__wrap span {
+	    font-size: 25px;
+	}
+
+	.contacts__wrap {
+	    margin-bottom: 35px;
+	}
+
+	.contacts__wrap_graph {
+	    margin-top: 0px; 
+	}
+
+	.contacts {
+	    padding-bottom: 50px;
+	}
+
+	.footer__wrap-logo {
+		margin: 0 auto;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+
+	.footer__tel {
+	    text-align: center;
+	}
+
+	.footer__phone-wrap img {
+	    margin-right: -147px;
+	    margin-left: 130px;
+	}
+
+	.order-up {
+	    order: -1;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    margin: 0 auto;
+	    margin-bottom: 23px;
+	}
+
+	.footer__phone-wrap {
+	    margin-top: 30px;
+	}
+
+	.footer__button {
+	    margin: 0 auto;
+	    margin-top: 20px;
+	}
+
+	.protected {
+	    margin-top: 45px;
+	}
+
+	.renovation__block-text_left {
+	    width: 100%;
+	}
+
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	.nav__btn {
+	    margin-left: 0px;
+	}
+
+	.form-wrapper {
+	    width: 100%;
+	}
+
+	.form-wrapper .form-control {
+    	width: 90%;
+    }
+
+    .form-wrapper .button {
+    	width: 90%;
+    }
+
+   .about__list {
+	    margin-top: 42px;
+	    display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	}
+
+   .renovation__block-text_left {
+	    width: 100%;
+	}
+
+	.consultation .form-wrapper {
+	    width: 100%;
+	}
+
+   .renovation__block-text .renovation__subtitle {
+	    width: 100%;
+	}
+
+    .nav__wrap-logo img {
+	    width: max-content;
+	}
+
+    .nav__tel {
+	    width: 100%;
+	}
+
+    .offer__text {
+	    width: 100%;
+	}
+
+    .offer .form-title {
+	    margin-bottom: 40px;
+	}
+
+	.line {
+	    width: 100%;
+	}
+
+	.offer__logo {
+	    width: 100%;
+	}
+
+	.offer__text {
+	    font-size: 42px;
+	}
+
+	.offer__title {
+	    width: 100%;
+	    text-align: center;
+	    font-family: "PT Sans";
+	    font-size: 53px;
+	    font-weight: 700;
+	    line-height: 55px;
+	}
+
+	.offer__logo {
+	    margin-top: 25px;
+	}
+
+	.offer {
+	    padding-top: 97px;
+	}
+
+	.about {
+	    padding-top: 32px;
+	    padding-bottom: 55px;
+	}
+
+	.nav__tel {
+	    width: 100%;
+	    margin: 0 auto;
+	    margin-top: 60px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+
+	.nav__wrap-logo {
+		display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+
+	.nav__btn {
+	    margin-left: 0px;
+	    margin: 0 auto;
+	    display: flex;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+
+	.about__item {
+		margin: 0 auto;
+	     margin-bottom: 40px;
+	}
+
+	.about__list {
+	    margin-top: 2px;
+	}
+
+	.about__title, 
+	.privilege__title  {
+	    	font-size: 30px;
+	}
+
+	.privilege__line_right {
+	    width: 100%;
+	    margin: 0 auto;
+	    display: flex;
+	    margin-bottom: 20px;
+	}
+
+	.privilege__title {
+	    margin-bottom: 25px;
+	}
+
+	.renovation__title {
+	    font-size: 30px;
+	    margin-bottom: 25px;
+	}
+
+
+	.renovation__block-text_left .button {
+	    margin-right: 0px;
+	    width: 90%;
+	}
+
+	.renovation__block-text_right .button {
+	    margin-right: 0px;
+	    width: 90%;
+	}
+
+	.scheme__title {
+	    font-size: 30px;
+	    margin-bottom: 25px;
+	}
+
+	.scheme__line_right {
+	    width: 100%;
+	}
+
+	.scheme {
+	    padding-top: 50px;
+	    padding-bottom: 0px;
+	}
+
+	.consultation .form-title {
+	    font-size: 18px;
+	    padding: 0 15px;
+	}
+
+	.contacts__title {
+	    font-size: 30px;
+	    margin-bottom: 0px;
+	}
+
+	.contacts__line_right {
+	    width: 100%;
+	    margin-bottom: 36px;
+	}
+
+	.contacts__wrap span {
+	    font-size: 22px;
+	}
+
+	.contacts__mail {
+	    font-size: 22px;
+	}
+
+	.contacts__tel {
+	    font-size: 22px;
+	}
+
+	.footer__phone-wrap img {
+	    margin-right: -27px;
+	    margin-left: 28px;
+	}
+
+	#name-error, #tel-error, #email-error {
+	    margin-left: 90px;
+	    margin-top: -28px;
+	}
+
+	.modal .form-wrapper {
+	    width: 100%;
+	}
+
+	.modal .form-title {
+	    margin-bottom: 33px;
+	}
+
+}

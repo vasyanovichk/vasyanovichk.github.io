@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ремонт бытовой техники </title>
+	<meta name="description" content="Описание страницы">
+	<meta name="keywords" content="ключевые, слова, через, запятую">
+	<!-- Favicon -->
+	<link rel="icon" href="#" type="image/x-icon">
+ 	<link rel="shortcut icon" href="#" type="image/x-icon"> 
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Reset CSS -->
+	<link rel="stylesheet" href="css/reset.css"> 
+	<link rel="stylesheet" href="css/form.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/main.css?1.00">
+	<!-- Media Queries CSS -->
+	<link rel="stylesheet" href="css/media.css?1.00"> 
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="nav">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-12 col-sm-6 col-md-3 col-lg-2">
+						<div class="nav__wrap-logo">
+							<a href="#header">
+								<img src="img/logo.png" alt="логотип">
+							</a>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 offset-md-1 col-md-4 col-lg-3 ml-auto">
+						<a href="tel:+84953332244" class="nav__tel">
+					        8 (495) 333-22-44
+					    </a>
+				   </div>
+				   <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-lg-flex justify-content-end">
+					    <button class="nav__btn" data-toggle="modal" data-target="#myModal">
+					    	Заказать звонок
+					    </button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="offer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-lg-7 col-xl-8">
+						<div class="offer__wrap">
+							<h1 class="offer__title">
+								Ремонт <br> бытовой техники
+							</h1>
+							<img src="img/offer_logo.png" alt="" class="offer__logo">
+							
+							<img src="img/line.png" alt="линия" class="line">
+							<p class="offer__text">
+								Доверьте свою технику профессионалам
+							</p>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-5 col-xl-4">
+						<div class="form-wrapper">
+						    <div class="form-title">
+						    	Отправьте заявку на бесплатную консультацию
+						    </div>
+						    <!-- Основная форма с полями разного типа -->
+							<form action="success.php" class="js-form" id="popupResult">
+						        <input type="text" name="name" required placeholder="Имя"  class="form-control form__field">
+						        <input type="text" name="tel" required placeholder="Телефон"  class="form-control form__field">
+						        <input type="text" name="email" required placeholder="E-mail"  class="form-control form__field">        
+						        <button class="btn__red__bottom act font-bold button btn-form" data-parent="Отправьте заявку на бесплатную консультацию" data-submit>Оставить заявку</button>
+						    </form>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="about" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="img/line.png" alt="линия" class="about__line about__line_left">
+				</div>
+				<div class="col-md-6">
+					<h2 class="about__title">
+						О нас
+					</h2>
+				</div>
+				<div class="col-12 col-md-3">
+					<img src="img/line.png" alt="линия" class="about__line about__line_right">
+				</div>
+			</div>
+			<div class="row">	
+				<div class="offset-lg-3 col-lg-6">
+					<p class="about__text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+					</p>
+					<p class="about__text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+					</p>
+				</div>
+			</div>
+			<div class="row">	
+				<div class="col-12 col-md-12 col-6">
+					<ul class="about__list">
+						<li class="about__item">
+							<span>
+								100+ 
+							</span>
+							<p class="about__subtitle">
+								Довольных клиентов
+							</p>
+						</li>
+						<li class="about__item">
+							<span>
+								500+  
+							</span>
+							<p class="about__subtitle">
+								Починенной техники
+							</p>
+						</li>
+						<li class="about__item">
+							<span>
+								75% 
+							</span>
+							<p class="about__subtitle">
+								Клиентов обращаются к нам снова
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="privilege" id="privilege">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-lg-3">
+					<img src="img/line.png" alt="линия" class="privilege__line privilege__line_left">
+				</div>
+				<div class="col-md-8 col-lg-6">
+					<h2 class="privilege__title">
+						Наши преимущества
+					</h2>
+				</div>
+				<div class="col-md-2 col-lg-3">
+					<img src="img/line.png" alt="линия" class="privilege__line privilege__line_right">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<span class="privilege__text">
+						Вам поравится с нами сотрудничать
+					</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-lg-4">
+					<div class="privilege-item">
+						<div class="privilege-item__wrap">
+							<img src="img/privilege-1.png" alt="Быстрый выезд">
+						</div>
+						<p class="privilege-item__title">
+							Быстрый выезд
+						</p>
+						<p class="privilege-item__text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="privilege-item">
+						<div class="privilege-item__wrap">
+							<img src="img/privilege-2.png" alt="Качественный ремонт">
+						</div>
+						<p class="privilege-item__title">
+							Качественный ремонт
+						</p>
+						<p class="privilege-item__text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="privilege-item">
+						<div class="privilege-item__wrap">
+							<img src="img/privilege-3.png" alt="Гарантия на ремонт">
+						</div>
+						<p class="privilege-item__title">
+							Гарантия на ремонт
+						</p>
+						<p class="privilege-item__text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="privilege-item">
+						<div class="privilege-item__wrap">
+							<img src="img/privilege-4.png" alt="Запчасти в наличии">
+						</div>
+						<p class="privilege-item__title">
+							Запчасти в наличии
+						</p>
+						<p class="privilege-item__text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="privilege-item">
+						<div class="privilege-item__wrap">
+							<img src="img/privilege-5.png" alt="Профессионализм мастеров">
+						</div>
+						<p class="privilege-item__title">
+							Профессионализм мастеров
+						</p>
+						<p class="privilege-item__text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="privilege-item">
+						<div class="privilege-item__wrap">
+							<img src="img/privilege-6.png" alt="Низкие цены">
+						</div>
+						<p class="privilege-item__title">
+							Низкие цены
+						</p>
+						<p class="privilege-item__text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="renovation" id="renovation">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-lg-3">
+					<img src="img/line.png" alt="линия" class="renovation__line renovation__line_left">
+				</div>
+				<div class="col-md-8 col-lg-6">
+					<h2 class="renovation__title">
+						Что мы ремонтируем
+					</h2>
+				</div>
+				<div class="col-md-2 col-lg-3">
+					<img src="img/line.png" alt="линия" class="renovation__line renovation__line_right">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<ul class="renovation__list">
+						<li class="renovation__item">
+							<div class="renovation__block-img renovation__block-img_one"></div>
+							<div class="renovation__block-text renovation__block-text_right">
+								<h3 class="renovation__subtitle">
+									Духовые и паровые шкафы
+								</h3>
+								<button class="renovation__btn button" data-toggle="modal" data-target="#myModal2">
+									Оставить заявку
+								</button>
+							</div>
+						</li>
+						<li class="renovation__item">
+							<div class="renovation__block-text renovation__block-text_left">
+								<h3 class="renovation__subtitle">
+									Кофемашины
+								</h3>
+								<button class="renovation__btn button" data-toggle="modal" data-target="#myModal2">
+									Оставить заявку
+								</button>
+							</div>
+							<div class="renovation__block-img renovation__block-img_two"></div>
+						</li>
+						<li class="renovation__item">
+							<div class="renovation__block-img renovation__block-img_three"></div>
+							<div class="renovation__block-text renovation__block-text_right">
+								<h3 class="renovation__subtitle">
+									Вытяжки
+								</h3>
+								<button class="renovation__btn button" data-toggle="modal" data-target="#myModal2">
+									Оставить заявку
+								</button>
+							</div>
+						</li>
+						<li class="renovation__item">
+							<div class="renovation__block-text renovation__block-text_left">
+								<h3 class="renovation__subtitle">
+									Варочные панели
+								</h3>
+								<button class="renovation__btn button" data-toggle="modal" data-target="#myModal2">
+									Оставить заявку
+								</button>
+							</div>
+							<div class="renovation__block-img renovation__block-img_four"></div>
+						</li>
+						<li class="renovation__item">
+							<div class="renovation__block-img renovation__block-img_five"></div>
+							<div class="renovation__block-text renovation__block-text_right">
+								<h3 class="renovation__subtitle">
+									Микроволновые печи
+								</h3>
+								<button class="renovation__btn button" data-toggle="modal" data-target="#myModal2">
+									Оставить заявку
+								</button>
+							</div>
+						</li>
+						<li class="renovation__item">
+							<div class="renovation__block-text renovation__block-text_left">
+								<h3 class="renovation__subtitle">
+									Кухонные блоки
+								</h3>
+								<button class="renovation__btn button" data-toggle="modal" data-target="#myModal2">
+									Оставить заявку
+								</button>
+							</div>
+							<div class="renovation__block-img renovation__block-img_six"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="scheme" id="scheme">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-lg-3">
+					<img src="img/line.png" alt="линия" class="scheme__line scheme__line_left">
+				</div>
+				<div class="col-md-8 col-lg-6">
+					<h2 class="scheme__title">
+						Схема работы с нами
+					</h2>
+				</div>
+				<div class="col-md-2 col-lg-3">
+					<img src="img/line.png" alt="линия" class="scheme__line scheme__line_right">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<span class="privilege__text">
+						С нами легко и комфортно работать!
+					</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-lg-3">
+					<div class="privilege-item">
+						<div class="privilege-item__wrap">
+							<img src="img/scheme-1.png" alt="Быстрый выезд">
+						</div>
+						<p class="privilege-item__title">
+							Ваша заявка
+						</p>
+						<p class="privilege-item__text">
+							Вы оставляете заявку на сайте или по телефону 
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="privilege-item">
+						<div class="privilege-item__wrap">
+							<img src="img/scheme-2.png" alt="Быстрый выезд">
+						</div>
+						<p class="privilege-item__title">
+							Консультация
+						</p>
+						<p class="privilege-item__text">
+							В течении 10 минут с Вами связывается наш мастер и консультирует по Вашей поломке
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="privilege-item">
+						<div class="privilege-item__wrap">
+							<img src="img/scheme-3.png" alt="Быстрый выезд">
+						</div>
+						<p class="privilege-item__title">
+							Приезд мастера
+						</p>
+						<p class="privilege-item__text">
+							В течении часа уже может быть у Вас мастер с нужным оборудованием и запчастями 
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="privilege-item">
+						<div class="privilege-item__wrap">
+							<img src="img/scheme-4.png" alt="Быстрый выезд">
+						</div>
+						<p class="privilege-item__title">
+							 Оплата
+						</p>
+						<p class="privilege-item__text">
+							Вы получаете комплект документов с гарантией на выполненные работы и оплачиваете их
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="consultation" id="consultation">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="form-wrapper">
+					    <div class="form-title">
+					    	Проконсультироваться и договориться о ремонте вы можете прямо сейчас
+					    </div>
+					    <!-- Основная форма с полями разного типа -->
+						<form action="success.php" class="js-form" id="popupResult">
+					        <input type="text" name="name" required placeholder="Имя"  class="form-control form__field">
+					        <input type="text" name="tel" required placeholder="Телефон"  class="form-control form__field">
+					        <input type="text" name="email" required placeholder="E-mail"  class="form-control form__field">        
+					        <button class="btn__red__bottom act font-bold button btn-form" data-parent="Отправьте заявку на бесплатную консультацию" data-submit>Оставить заявку</button>
+					    </form>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contacts" id="contacts">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-lg-3">
+					<img src="img/line.png" alt="линия" class="contacts__line contacts__line_left">
+				</div>
+				<div class="col-md-8 col-lg-6">
+					<h2 class="contacts__title">
+						Контакты
+					</h2>
+				</div>
+				<div class="col-md-2 col-lg-3">
+					<img src="img/line.png" alt="линия" class="contacts__line contacts__line_right">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-4">
+					<div class="contacts__wrap">
+						<p class="contacts__subtitle">
+							Звоните нам
+						</p>
+						<div class="contacts__phone-wrap">
+							<img src="img/phone-contacts.png" alt="Телефон">
+							<a href="tel:+84953332244" class="contacts__tel">
+						        8 (495) 333-22-44
+						    </a>
+						</div> 
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="contacts__wrap">
+						<p class="contacts__subtitle">
+							Пишите нам
+						</p>	
+						<div class="contacts__phone-wrap">
+							<img src="img/mail-contacts.png" alt="Почта">
+							<a href="mailto:ььsmeg@box.com" class="contacts__mail">
+								ььsmeg@box.com
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-4">
+					<div class="contacts__wrap contacts__wrap_graph">
+						<p class="contacts__subtitle">
+							График работы
+						</p>
+						<div class="contacts__phone-wrap">
+							<img src="img/graph-contacts.png" alt="Почта">
+							<span>
+								Пн-Вн: 9.00 - 22.00
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-sm-12 col-md-3 col-lg-2">
+					<div class="footer__wrap-logo">
+						<a href="#header" class="go">
+							<img src="img/logo.png" alt="#header">
+						</a>
+					</div>
+				</div>
+				 <div class="col-sm-12 col-md-3 offset-1 col-lg-2 order-up">
+				 	<a href="#header" class="footer__btn go">
+				 		Наверх
+				 	</a>
+				</div>
+				<div class="col-sm-12 col-md-5 col-lg-4 col-xl-3 ml-xl-auto">
+					<div class="footer__phone-wrap">
+						<img src="img/phone.png" alt="Телефон">
+						<a href="tel:+84953332244" class="footer__tel">
+					        8 (495) 333-22-44
+					    </a>
+					</div> 
+			   </div>
+			   <div class="col-sm-12 col-md-12 col-lg-3 d-flex justify-content-end order">
+				    <button class="footer__button" data-toggle="modal" data-target="#myModal">
+				    	Заказать звонок
+				    </button>
+				</div>
+		  
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<p class="protected">
+						2018.Все права защищены
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-body">
+
+				<div class="form-wrapper">
+				    <div class="form-title">
+				    	Заказать звонок
+				    </div>
+					<img src="img/line.png" alt="линия" class="modal__line">
+
+				    <!-- Основная форма с полями разного типа -->
+					<form action="success.php" class="js-form" id="popupResult">
+				        <input type="text" name="name" required placeholder="Имя"  class="form-control form__field">
+				        <input type="text" name="tel" required placeholder="Телефон"  class="form-control form__field">
+				        <input type="text" name="email" required placeholder="E-mail"  class="form-control form__field">        
+				        <button class="btn__red__bottom act font-bold button btn-form" data-parent="Заказать звонок" data-submit>Заказать звонок</button>
+				    </form>
+				</div>	
+	    </div>
+	  </div>
+	</div>
+</div>
+
+<!-- Modal -->
+	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-body">
+
+				<div class="form-wrapper">
+				    <div class="form-title">
+				    	Оставить заявку
+				    </div>
+					<img src="img/line.png" alt="линия" class="modal__line">
+
+				    <!-- Основная форма с полями разного типа -->
+					<form action="success.php" class="js-form" id="popupResult">
+				        <input type="text" name="name" required placeholder="Имя"  class="form-control form__field">
+				        <input type="text" name="tel" required placeholder="Телефон"  class="form-control form__field">
+				        <input type="text" name="email" required placeholder="E-mail"  class="form-control form__field">        
+				        <button class="btn__red__bottom act font-bold button btn-form" data-parent="Оставить заявку" data-submit>Оставить заявку</button>
+				    </form>
+				</div>	
+
+	    </div>
+	  </div>
+	</div>
+</div>
+
+
+<!-- Индикация процесса отправки формы -->
+	<div id="loader">
+		<img src="img/ripple.svg">
+	</div>
+	
+	<!-- Сообщение "спасибо" после отправки формы -->
+	<div id="overlay">
+		<div id="thx">
+			<div class="overlay-title">
+				Спасибо! Мы обязательно вам перезвоним
+				<img src="img/line.png" alt="линия" class="overlay__line">
+			</div>
+		</div>
+   	</div>
+   	<script src="js/jquery.js"></script> 
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
+	<!-- Валидатор для проверки формы на заполненность  -->
+	<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
+      "css": "instagram",
+      "code": 61805,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f3d95e13eb43f3f6b8efe1eb424a1e3b",
+      "css": "vkontakte",
+      "code": 61833,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "c99e966e3d22ec0b9d8678fd524e5512",
+      "css": "facebook",
+      "code": 59392,
+      "src": "elusive"
+    }
+  ]
+}

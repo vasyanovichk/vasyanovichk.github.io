@@ -1,0 +1,549 @@
+/* Media Queries */
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+	.scheme__wrap img {
+	    width: 135px;
+	}
+
+	.footer__btn {
+	    margin-left: 0px;
+	}
+
+
+	.footer__list-cont {
+		display: flex;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+	.footer__wrap-logo {
+	    margin: 0 auto;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+
+/*	.footer__copy {
+	    width: 187px;
+	    height: 11px;
+	    color: #faf7f7;
+	    font-family: "PT Sans";
+	    font-size: 13px;
+	    font-weight: 400;
+	    line-height: 33px;
+	    text-transform: uppercase;
+	    margin: 0 auto;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    margin-top: 20px;
+	    margin-bottom: 30px;
+	}*/
+
+	.footer__copy {
+		display: none;
+	}
+
+	.footer__subtitle {
+	    margin-bottom: 12px;
+	    justify-content: center;
+	    display: flex;
+	    margin-top: 30px;
+	}
+
+		.footer__list-cont {
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	}
+
+	.footer__btn {
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.scheme__wrap img {
+	    width: inherit;
+	}
+
+	.scheme__wrap {
+	    margin-top: 20px;
+	}
+
+	.features {
+	    padding-bottom: 0px;
+	}
+
+	.repairs {
+    	padding-top: 0px;
+	}
+
+	.about {
+	    padding-top: 40px;
+	    padding-bottom: 0px;
+	    background-color: #030303;
+	}
+
+	.about__title {
+	    margin-bottom: 25px;
+	}
+
+	.about__subtitle {
+	    margin: 0 auto;
+	    margin-bottom: 39px;
+	    margin-top: 20px;
+	}
+
+	.about__list {
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	}
+
+	.top {
+	    margin-top: 25px;
+	}
+
+	.offer__title {
+	    text-align: center;
+	}
+
+	.offer__wrap img {
+	    margin: 0 auto;
+	    display: flex;
+	}
+
+	.offer__btn {
+	    margin-left: auto;
+	    margin-right: auto;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+
+	.offer {
+	    padding-top: 150px;
+	    padding-bottom: 111px;
+	}
+
+	.about__text {
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.footer__copy2 {
+		display: block;
+		text-transform: uppercase;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    margin-top: 30px;
+	}
+
+		.scheme__line-l {
+		display: none;
+	}
+
+	.scheme__line {
+		display: block;
+	}
+
+	.scheme {
+	    overflow: hidden;
+	}
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+
+	.offer__title {
+	    font-size: 51px;
+	}
+
+	.offer__wrap img {
+	    width: 68%;
+	}
+
+	.nav__wrap-logo img {
+	    width: 89%;
+	}
+
+	.nav__btn {
+	    margin-top: 0px;
+	}
+
+	.offer {
+	    padding-top: 38px;
+	    padding-bottom: 52px;
+	}
+
+	.offer__smeg-wrap {
+	    margin-top: 0px;
+	}
+
+	.about {
+    	padding-top: 60px;
+	}
+
+	.footer__copy {
+		display: none;
+	}
+
+	.footer__list-cont {
+	    flex-direction: column;
+	}
+
+	.repairs__item {
+	    margin: 0 auto;
+	    margin-top: 15px;
+	}
+
+	.repairs__title {
+	    margin-bottom: 15px;
+	}
+
+	.scheme__indent {
+	    margin-top: 25px;
+	}
+
+	.consultation__text {
+	    max-width: 445px;
+	}
+
+	.consultation {
+	    padding-top: 21px;
+	}
+
+	.consultation__text {
+	    margin-bottom: 17px;
+	}
+
+	.textarea {
+	    height: 141px!important;
+	}
+
+	.footer__wrap-logo {
+	    width: 88%;
+	}
+
+	.footer__top {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.scheme__line-l {
+		display: none;
+	}
+
+	.scheme__line {
+		display: block;
+	}
+
+	.scheme {
+	    overflow: hidden;
+	}
+}	
+
+/* 370 - 576 px */
+@media screen and (max-width: 576px) {
+		.footer__copy {
+		display: none;
+	}
+
+	.nav__btn {
+	    font-size: 16px;
+	    margin-left: 36px;
+	}
+
+	.nav__btn:before {
+	    content: "";
+	    display: block;
+	    width: 173px;
+	}
+
+	.nav__wrap-logo img {
+	    width: 100%;
+	}
+
+	.offer__btn {
+	    width: 288px;
+	    height: 39px;
+	    background-color: #ff0000;
+	    color: #fefefe;
+	    font-family: "PT Sans";
+	    font-size: 16px;
+	    font-weight: 700;
+	    text-transform: uppercase;
+	}
+
+	.about__title {
+	    font-size: 30px;
+	}
+
+	.about__text {
+	    font-size: 16px;
+	}
+
+	.features__title {
+	    font-size: 30px;
+	}
+
+	.repairs__title {
+	    font-size: 30px;
+	}
+
+	.scheme__title {
+	    font-size: 30px;
+	}
+
+	.scheme__line {
+		display: block;
+	}
+
+	.scheme {
+	    overflow: hidden;
+	}
+
+	.questions__title {
+	    font-size: 30px;
+	}
+
+	.scheme.bg {
+		overflow: hidden;
+	}
+
+	.questions {
+	    padding-top: 0px;
+	    padding-bottom: 0px;
+	}
+
+	.questions__title {
+	    font-size: 30px;
+	    line-height: 1.2em;
+	}
+
+	.form-wrapper {
+	    width: 100%;
+	}
+
+	.consultation {
+	    background: url(../img/bg-consultation-mini.jpg) no-repeat center top / cover;
+	}
+
+	.footer {
+	    padding-top: 20px;
+	    padding-bottom: 14px;
+	}
+
+	.offer__wrap img {
+	    width: 75%;
+	}
+
+	.offer__title {
+	    height: 124px;
+	}
+
+	.consultation #name-error, #tel-error, #email-error {
+	    margin-left: 135px;
+	    margin-top: -26px;
+	}
+
+	.menu-open {
+	    margin-top: 0px;
+	}
+
+	.offer__title {
+		height: auto;
+	    margin-bottom: 30px;
+	}
+
+	.between {
+	    display: flex!important;
+	    justify-content: space-between!important;
+	}
+
+	.modal .form-wrapper {
+	    width: 100%;
+	}
+
+	.modal #name-error, .modal #tel-error, .modal #email-error {
+	    margin-left: 127px;
+	    margin-top: -28px;
+	}
+
+	#thx {
+	    width: 90%;
+	    background: #fff;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	    top: 40%;
+	    padding: 30px;
+	    position: fixed;
+	}
+
+
+}
+
+
+
+/* 320 - 370 px */
+@media screen and (max-width: 370px) {
+		.footer__copy {
+		display: none;
+	}
+
+	.nav__btn {
+	    font-size: 16px;
+	    margin-left: 36px;
+	}
+
+	.nav__btn:before {
+	    content: "";
+	    display: block;
+	    width: 173px;
+	}
+
+	.nav__wrap-logo img {
+	    width: 100%;
+	}
+
+	.offer__btn {
+	    width: 288px;
+	    height: 39px;
+	    background-color: #ff0000;
+	    color: #fefefe;
+	    font-family: "PT Sans";
+	    font-size: 16px;
+	    font-weight: 700;
+	    text-transform: uppercase;
+	}
+
+	.about__title {
+	    font-size: 30px;
+	}
+
+	.about__text {
+	    font-size: 16px;
+	}
+
+	.features__title {
+	    font-size: 30px;
+	}
+
+	.repairs__title {
+	    font-size: 30px;
+	}
+
+	.scheme__title {
+	    font-size: 30px;
+	}
+
+	.scheme__line {
+		display: block;
+	}
+
+	.scheme {
+	    overflow: hidden;
+	}
+
+	.questions__title {
+	    font-size: 30px;
+	}
+
+	.scheme.bg {
+		overflow: hidden;
+	}
+
+	.questions {
+	    padding-top: 0px;
+	    padding-bottom: 0px;
+	}
+
+	.questions__title {
+	    font-size: 30px;
+	    line-height: 1.2em;
+	}
+
+	.form-wrapper {
+	    width: 100%;
+	}
+
+	.consultation {
+	    background: url(../img/bg-consultation-mini.jpg) no-repeat center top / cover;
+	}
+
+	.footer {
+	    padding-top: 20px;
+	    padding-bottom: 14px;
+	}
+
+	.offer__wrap img {
+	    width: 75%;
+	}
+
+	.offer__title {
+	    height: 124px;
+	}
+
+	.consultation #name-error, #tel-error, #email-error {
+	    margin-left: 135px;
+	    margin-top: -26px;
+	}
+
+	.menu-open {
+	    margin-top: 0px;
+	}
+
+	.offer__title {
+		height: auto;
+	    margin-bottom: 30px;
+	}
+
+	.between {
+	    display: flex!important;
+	    justify-content: space-between!important;
+	}
+
+	.modal .form-wrapper {
+	    width: 100%;
+	}
+
+	.modal #name-error, .modal #tel-error, .modal #email-error {
+	    margin-left: 127px;
+	    margin-top: -28px;
+	}
+
+	#thx {
+	    width: 90%;
+	    background: #fff;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	    top: 40%;
+	    padding: 30px;
+	    position: fixed;
+	}
+
+	.modal .form-wrapper .button {
+   		 width: 90%;
+	}
+
+	.form-wrapper .form-control {
+		width: 90%;
+	}
+
+
+}

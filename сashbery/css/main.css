@@ -1,0 +1,487 @@
+/* ------ Open Sans Font ------ */
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeue-Light.eot');
+    src: url('../fonts/HelveticaNeue-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeue-Light.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue-Light.woff') format('woff'),
+        url('../fonts/HelveticaNeue-Light.ttf') format('truetype'),
+        url('../fonts/HelveticaNeue-Light.svg#HelveticaNeue-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/ProximaNova-Regular.eot');
+	src: local('../fonts/ProximaNova-Regular'), local('ProximaNova-Regular'),
+		url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Regular.woff') format('woff'),
+		url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* ------ Specification ------ */
+
+body {
+	color: #3a3244;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+a, button, input {
+  transition: all 0.5s ease;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active, 
+a, a:hover, a:focus, a:active
+
+ {
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: none;
+}
+
+button {        
+	border: none;
+	cursor: pointer;			
+}
+
+      /* ------ Hero screen ------ */
+
+.header {
+	background: url(../img/first__bg.png) no-repeat center top / cover;
+	background-color: #272b3b;
+	padding-top: 9px;
+	padding-bottom: 540px;
+}
+
+.header span {
+	max-width: 230px;
+	color: #f8f8f8;
+	font-family: 'Helvetica Neue';
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.96px;
+	display: block;
+	margin-top: 7px;
+	margin-left: 30px;
+	line-height: 1.4em;
+}
+
+.header__btn {
+	width: 240px;
+	height: 45px;
+	border-radius: 3px;
+	border: 1px solid #f2d137;
+	background: transparent;
+	color: #f2d137;
+	font-family: 'Helvetica Neue';
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+	text-transform: uppercase;
+	letter-spacing: 2.9px;
+	margin-top: 8px;
+	margin-left: auto;
+	text-align: center;
+	text-align: -webkit-center;
+}
+
+.header__btn:hover  {
+    background: #f2d137;
+    color: #393d49;
+}
+
+.header__title {
+	margin-top: 170px;
+	margin-bottom: 24px;
+	max-width: 500px;
+	color: #ffffff;
+	font-family: 'Proxima Nova';
+	font-size: 39px;
+	font-weight: 400;
+	line-height: 63px;
+	text-transform: uppercase;
+	letter-spacing: 1.82px;
+}
+
+.header__text {
+	margin-bottom: 88px;
+	width: 576px;
+	max-width: 576px;
+	color: #ffffff;
+	font-family: "Helvetica Neue";
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1.2px;
+	line-height: 1.9em;
+}
+
+.header__link {
+	color: #f2d137;
+	font-family: "Helvetica Neue";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 40px;
+	text-transform: uppercase;
+	letter-spacing: 1.08px;
+}
+
+.header__link:after {
+	content: "";
+	display: block;
+	width: 53px;
+	height: 0;
+    border: 2px solid #f2d137;
+    margin-top: 111px;
+    cursor: auto;
+}
+
+.header__pay {
+    margin-top: 98px;
+    margin-left: -129px;
+    position: absolute;
+    opacity: 0.5;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 77px;
+    width: 90%;
+}
+
+.header__img {
+ 	opacity: 0.29;
+    z-index: 0;
+    position: relative;
+    margin-top: 129px;
+    margin-left: -43px;
+    width: 101%;
+}
+
+/* ------ Balance  ------ */
+
+.balance {
+	background-color: #272b3b;
+	padding-bottom: 8px;
+}
+
+.balance__img {
+	margin-top: -349px;
+}
+
+.balance__title {
+	max-width: 341px;
+	color: #ffffff;
+	font-family: "Proxima Nova";
+	font-size: 39px;
+	font-weight: 400;
+	line-height: 63px;
+	text-transform: uppercase;
+	letter-spacing: 1.82px;
+}
+
+.balance__list {
+	margin-top: 62px;
+}
+
+.balance__item {
+	margin-bottom: 61px;
+	display: flex;
+}
+
+.balance__item p {
+	max-width: 286px;
+	color: #ffffff;
+	font-family: "Helvetica Neue";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 34px;
+	letter-spacing: 1.2px;
+	margin-left: 34px;
+}
+
+.balance__wrap {
+	margin-left: 100px;
+	margin-top: -275px;
+}
+
+.balance__wrap-img img {
+	margin-top: 15px;
+}
+
+.balance__img {
+	background: url(../img/balance.jpg) no-repeat center top / cover;
+	height: 950px;
+	border-radius: 5px;
+}
+
+/* ------ User  ------ */
+
+.user {
+	padding-top: 174px;
+	padding-bottom: 193px;
+	background-color: #272b3b;
+}
+
+.user__wrap-img img {
+	background: url(../img/user-icon1.png) no-repeat center top / cover;
+	background: #272b3b;
+}
+
+.user__wrap-img  {
+    height: 60px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.user__title {
+	max-width: 635px;
+	color: #ffffff;
+	font-family: "Proxima Nova";
+	font-size: 39px;
+	font-weight: 400;
+	line-height: 63px;
+	text-transform: uppercase;
+	letter-spacing: 1.82px;
+	margin-bottom: 155px;
+}
+
+.user__item p {
+	/*max-width: 275px;*/
+	color: #ffffff;
+	font-family: "Helvetica Neue";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 34px;
+	letter-spacing: 1.2px;
+	    text-align: center;
+	    text-align: -webkit-center;
+	        max-width: 242px;
+}
+
+.user__list {
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+
+
+/* ------ Score  ------ */
+
+.score {
+	background-color: #272b3b;
+	padding-top: 5px;
+}
+
+.score__title {
+	max-width: 240px;
+	color: #ffffff;
+	font-family: "Proxima Nova";
+	font-size: 39px;
+	font-weight: 400;
+	line-height: 54px;
+	text-transform: uppercase;
+	letter-spacing: 1.82px;
+	margin-bottom: 40px;
+	margin-top: 167px;
+}
+
+.score__img {
+	background: url(../img/score.jpg) no-repeat center top / cover;
+	height: 618px;
+	border-radius: 5px;
+}
+
+.container-fluid_plain {
+    padding: 0;
+}
+
+.score__text {
+	max-width: 454px;
+	color: #ffffff;
+	font-family: "Helvetica Neue";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 34px;
+	letter-spacing: 1.2px;
+	margin-top: 40px;
+}
+
+.score__wrap {
+	max-width: 454px;
+	margin-left: auto;
+	margin-right: 175px;
+	margin-right: 100px;
+	padding-left: 15px;
+}
+
+
+/* ------ Connect  ------ */
+
+.footer {
+	background: url(../img/connect__bg.png) no-repeat center top / cover;
+	background-color: #272b3b;
+	padding-top: 210px;
+	padding-bottom: 50px;
+}
+
+.footer__btn {
+	width: 240px;
+	height: 45px;
+	border-radius: 3px;
+	background-color: #f2d137;
+	color: #1c1c1c;
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 22px;
+	text-transform: uppercase;
+	letter-spacing: 2.9px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    text-align: -webkit-center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.footer__btn:hover {
+    background: #ffffff;
+    color: #1c1c1c;
+}
+
+.footer__title {
+	max-width: 376px;
+	color: #ffffff;
+	font-family: "Proxima Nova";
+	font-size: 39px;
+	font-weight: 400;
+	line-height: 63px;
+	text-transform: uppercase;
+	letter-spacing: 1.82px;
+	text-align: center;
+	text-align: -webkit-center;
+	margin: 0 auto;
+	margin-bottom: 17px;
+}
+
+.footer__text {
+	max-width: 390px;
+	color: #ffffff;
+	font-family: "Helvetica Neue";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 34px;
+	letter-spacing: 1.2px;
+	margin-bottom: 63px;
+	text-align: center;
+	text-align: -webkit-center;
+	margin: 0 auto;
+	margin-bottom: 19px;
+}
+
+.footer__wrap {
+	display: flex;
+	justify-content: space-between;
+	    margin-top: 276px;
+}
+
+.footer__list {
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.footer__item, .footer__item a {
+	max-width: 195px;
+	color: #76787f;
+	font-family: "Helvetica Neue";
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.4em;
+	letter-spacing: 0.42px;
+}
+
+
+.footer__item a:hover {
+	color: #f2d137;
+}
+
+
+.footer__item-text a {
+	max-width: 195px;
+	color: #76787f;
+	font-family: "Helvetica Neue";
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 30px;
+	letter-spacing: 0.42px;
+}
+
+.footer__item-text a:hover {
+	color: #f2d137;
+}
+
+.footer__mail {
+	width: 179px;
+	height: 39px;
+	border-radius: 4px 0 0 4px;
+	border: 1px solid #efeae4;
+	opacity: 0.13;
+    padding-left: 15px;
+	opacity: 0.35;
+	color: #eeeeee;
+	font-family: "Helvetica Neue";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0.42px;
+	background: transparent;
+}
+
+
+.footer__mail-btn {
+	width: 36px;
+	height: 39px;
+	border-radius: 0 4px 4px 0;
+	background-color: #f2d137;
+}
+
+.footer__mail-btn:hover {
+    background: #ffffff;
+    color: #1c1c1c;
+}
+
+.footer__item form {
+	display: flex;
+	margin-top: 38px; 
+}
+
+.footer__item form 
+	input::-webkit-input-placeholder { color: #eeeeee; 
+}
+
+.footer__list_margin {
+	margin-bottom: 28px;
+}
+
+ .footer__item {
+	margin-bottom: 18px;
+}
+
+.footer__item_subscription {
+	line-height: 1.50em;
+	max-width: 208px;
+	margin-bottom: 15px;
+}

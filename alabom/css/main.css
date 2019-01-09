@@ -22,6 +22,10 @@ body {
   cursor: default;
 }
 
+.header {
+  overflow: hidden;
+}
+
 div, p, form, input, a, span, button {  
 }
 

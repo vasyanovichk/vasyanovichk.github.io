@@ -1,4 +1,6 @@
 
+
+
 $(window).scroll(function() {
     if ($(this).scrollTop() > 50){  
         $('.nav').addClass("sticky");
@@ -7,7 +9,7 @@ $(window).scroll(function() {
         $('.nav').removeClass("sticky");
     }
     if ($(this).scrollTop() > 400){  
-        $('.nav .nav__btn-shop').removeClass ("d-block");
+        $('.nav .nav__btn-shop').removeClass ("d-none");
     }
     else{
         $('.nav .nav__btn-shop').addClass("d-none");

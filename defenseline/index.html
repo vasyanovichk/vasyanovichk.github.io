@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- Favicon -->
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/libs.min.css?1.00">
+    <link rel="stylesheet" href="css/main.min.css?1.00">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="nav">
+            <div class="container">
+                <div class="row align-items-center column">
+                    <div class="col-6 col-lg-3 d-flex">
+                        <div class="header__logo">
+                            DefenSe Line
+                        </div>
+                    </div>
+                    <div class="d-none d-lg-block col-lg-6">
+                        <ul class="header__list">
+                            <li class="header__item centerOut">
+                                <a href="#why" class="header__link go">Почему мы </a>
+                            </li>
+                            <li class="header__item centerOut">
+                                <a href="#projects" class="header__link go">Наши работы</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#barrier" class="header__link go">Для кого</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#products" class="header__link go">Продукция</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-3 d-flex">
+                        <div class="header__wrap-tel">
+                            <a href="tel:+79282331110" class="header__tel">
+                                <img src="img/tel.svg" alt="tel"class="header__img-tel">
+                                +7 928 2331110
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="offer__text">Defense Line – шлагбаумы и цепные барьеры в Сочи</p>
+                    </div>
+                    <div class="col-md-12 col-lg-7 col-xl-8">
+                        <div class="offer__wrap">
+                            <h1 class="offer__title">
+                                Ограничьте доступ к своей собственности, установите шлагбаум уже завтра
+                            </h1>
+                            <p class="offer__text-mob">Defense Line – шлагбаумы и цепные барьеры в Сочи</p>
+                            <p class="offer__subtitle">
+                                Прочные шлагбаумы и цепные барьеры, для долгосрочной и активной Эксплуатации в Сочи
+                            </p>
+                            <button class="offer__btn renovation__btn button btn-form" data-toggle="modal" data-target="#myModal2" data-parent="Оставить заявку - Кухонные блоки">
+                                Узнать стоимость
+                            </button>
+                        </div>
+                    </div>
+                    <div class="d-lg-block col-lg-5 col-xl-4">   <!-- <div class="d-none d-lg-block col-lg-5 col-xl-4"></div> -->
+                        <div class="box">
+                            <div id="countdown" class="wow rubberBand"></div>
+                            <div class="box__text wow bounceIn">
+                                    <!-- <span id="note"></span> -->
+                                Оставьте заявку течении <span class="note-static">10 минут,</span> <span id="note"></span> получите расчет сметы по вашему объекту <span class="span-cl">бесплатно</span> 
+                            </div>
+                            <p class="box__text2 wow bounceIn">Выезд в день обращения</p>
+                            <div class="offer-mobile__form-wrap box__form-wrapper form-wrapper form-del-mob">
+                                <form action="success.php" class="js-form box__form" id="popupResult">
+                                    <input type="text" name="tel" required placeholder="Введите контактный номер" autocomplete="off" class="form-control form__field">
+                                    <button class="btn__red__bottom act font-bold button box__form-btn">Перезвоните мне</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-lg-none">
+                        <div class="box-mobile">
+                                <div id="countdown"></div>
+                            <div class="box-mobile__text2">
+                                    Оставьте заявку за <span id="note"></span> получите расчет сметы по вашему объекту бесплатно
+                            </div>
+                        
+                            <p class="box-mobile__text2">Выезд в день обращения</p>
+                            <div id="countdown"></div>
+                            <div class="offer-mob__form-wrap box-mobile__form-wrapper box__form-wrapper form-wrapper">
+                                <form action="success.php" class="js-form box-mobile__form offer-mob__form" id="popupResult">
+                                    <input type="text" name="tel" required placeholder="Введите контактный номер" autocomplete="off" class="form-control form__field">
+                                    <button class="btn__red__bottom act font-bold button box__form-btn">Узнать стоимость</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="thank offer-thank">
+                            <img src="img/check.png" alt="галочка" class="thank__img">
+                            <p class="thank__text">
+                                Благодарим за доверие! 
+                            </p>
+                            <p class="thank__text2">
+                                В ближайщее время с Вами сважется наш консультант для уточнения деталей.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="why" id="why">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="why__wrap">
+                        
+                        <div class="why__wrap-img">
+                            <img src="img/why-icon1.png" alt="Быстрое открытие" class="why__img">
+                        </div>
+                        <div class="why__wrap-text">
+                            <p class="why__title">
+                                Быстрое открытие
+                            </p>
+                            <img src="img/line.png" alt="line" class="why__line">
+                            <p class="why__text">
+                                В отличие от ворот, открывающихся в течение не менее 30 секунд, наши шлагбаумы и цепные барьеры открываются в одно мгновение.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="why__wrap-mob">
+                        <div class="why__wrap-img">
+                            <img src="img/why-icon1.png" alt="Быстрое открытие" class="why__img">
+                        </div>
+                        <div class="why__wrap-text">
+                            <p class="why__title">
+                                Быстрое открытие
+                            </p>
+                            <img src="img/line.png" alt="line" class="why__line">
+                            <p class="why__text">
+                                Наши установки открываются в одно мгновение.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="why__wrap">
+                        <div class="why__wrap-img">
+                            <img src="img/why-icon2.png" alt="Простота монтажа" class="why__img">
+                        </div>
+                        <div class="why__wrap-text">
+                            <p class="why__title">
+                                Простота монтажа
+                            </p>
+                            <img src="img/line.png" alt="line" class="why__line">
+                            <p class="why__text">
+                                Установка конструкции со шлагбаумом или цепными барьерами занимает минимум времени (до 1 часа), чего не скажешь об установки ворот.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="why__wrap-mob">
+                        <div class="why__wrap-img">
+                            <img src="img/why-icon2.png" alt="Простота монтажа" class="why__img why__img_two">
+                        </div>
+                        <div class="why__wrap-text why__wrap-text_two">
+                            <p class="why__title">
+                                Простота монтажа
+                            </p>
+                            <img src="img/line.png" alt="line" class="why__line">
+                            <p class="why__text">
+                                Установка конструкции занимает до 1 часа.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="why__wrap">
+                        <div class="why__wrap-img">
+                            <img src="img/why-icon3.png" alt="Доступная цена" class="why__img">
+                        </div>
+                        <div class="why__wrap-text">
+                            <p class="why__title">
+                                Доступная цена
+                            </p>
+                            <img src="img/line.png" alt="line" class="why__line">
+                            <p class="why__text">
+                                Из-за простоты конструкции стоимость шлагбаумов и цепных барьеров, а также их монтаж, не нанесет существенного урона Вашему бюджету.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="why__wrap-mob">
+                        <div class="why__wrap-img">
+                            <img src="img/why-icon4.png" alt="Доступная цена" class="why__img why__img_three">
+                        </div>
+                        <div class="why__wrap-text why__wrap-text_three">
+                            <p class="why__title">
+                                Экономия рабочей силы
+                            </p>
+                            <img src="img/line.png" alt="line" class="why__line">
+                            <p class="why__text">
+                                Конструкции автоматические, не требуют присмотра.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="why__wrap">
+                        <div class="why__wrap-img">
+                            <img src="img/why-icon3.png" alt="Экономия рабочей силы" class="why__img">
+                        </div>
+                        <div class="why__wrap-text">
+                            <p class="why__title">
+                                Экономия рабочей силы
+                            </p>
+                            <img src="img/line.png" alt="line" class="why__line">
+                            <p class="why__text">
+                                Наша продукция оснащена различными датчиками и автоматикой, благодаря чему некоторые модели могут работать практически без участия и присмотра со стороны персонала предприятия.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="why__wrap-mob">
+                        <div class="why__wrap-img">
+                            <img src="img/why-icon3.png" alt="Экономия рабочей силы" class="why__img">
+                        </div>
+                            <div class="why__wrap-text">
+                                <p class="why__title">
+                                    Доступная цена
+                                </p>
+                                <img src="img/line.png" alt="line" class="why__line">
+                                <p class="why__text">
+                                    Из-за простоты конструкции цены не кусаются.
+                                </p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="projects__wrap wow bounceInUp">
+                        <h2 class="projects__title">
+                            Выполненные Проекты
+                        </h2>  
+                        <img src="img/projects-line.png" alt="line" class="projects__line">
+                        <p class="projects__text">
+                            За 20 лет работы в Сочи мы установили более 2000 шлагбаумов. Вот несколько из наших последних работ
+                        </p>
+                        <p class="projects__text-mob">
+                            За 20 лет работы в Сочи мы установили более 2000 шлагбаумов.
+                        </p>
+                    </div>
+                    <div class="variable-width wow slideInUp">
+                        <div>
+                            <img src="img/slide-1.jpg" alt="слайд">
+                        </div>
+                        <div>
+                            <img src="img/slide-2.jpg" alt="слайд">
+                        </div>
+                        <div>
+                            <img src="img/slide-3.jpg" alt="слайд">
+                        </div>
+                        <div>
+                            <img src="img/slide-4.jpg" alt="слайд">
+                        </div>
+                    </div>
+
+                    <div class="responsive">
+                        <div>
+                            <img src="img/slide-1.jpg" alt="слайд">
+                        </div>
+                        <div>
+                            <img src="img/slide-2.jpg" alt="слайд">
+                        </div>
+                        <div>
+                            <img src="img/slide-3.jpg" alt="слайд">
+                        </div>
+                        <div>
+                            <img src="img/slide-4.jpg" alt="слайд">
+                        </div>
+                    </div>
+
+                    <button class="projects__btn renovation__btn button btn-form" data-toggle="modal" data-target="#myModal2" data-parent="Оставить заявку - Кухонные блоки">
+                        Узнать стоимость
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="barrier" id="barrier">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="barrier__wrapper">
+                        <div class="barrier__wrap-left wow slideInUp">
+                            <img src="img/barrier.png" alt="шлагбаум">
+                        </div>
+                        <div class="barrier__wrap-right wow slideInUp">
+                            <h2 class="barrier__title">
+                                Для чего мне нужен шлагбаум?
+                            </h2>
+                            <img src="img/barrier-line.png" alt="" class="barrier__line">
+                            <ul class="barrier__list">
+                                <li class="barrier__item">
+                                    <div class="barrier__wrap-img">
+                                        <img src="img/barrier1.png" alt="" class="barrier__item-img">
+                                    </div>
+                                    <p class="barrier__item-text"> 
+                                        Обеспечить безопасность предприятия
+                                    </p>      
+                                </li>
+                                <li class="barrier__item">
+                                    <div class="barrier__wrap-img">
+                                        <img src="img/barrier2.png" alt="" class="barrier__item-img">
+                                    </div>
+                                    <p class="barrier__item-text">
+                                        Ограничить несанкционированные проникновения
+                                    </p>
+                                </li>
+                                <li class="barrier__item">
+                                    <div class="barrier__wrap-img">
+                                        <img src="img/barrier3.png" alt="" class="barrier__item-img">
+                                    </div>
+                                    <p class="barrier__item-text">
+                                        Контролировать очередность проезда транспорта
+                                    </p>
+                                </li>
+                                <li class="barrier__item">
+                                    <div class="barrier__wrap-img">
+                                        <img src="img/barrier4.png" alt="" class="barrier__item-img">
+                                    </div>
+                                    <p class="barrier__item-text">
+                                        Подсчитывать количество въезжающих и выезжающих автомобилей
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <section class="products" id="products">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="products__title wow slideInUp">
+                        Наша продукция
+                    </h2>
+                    <div class="owl-carousel">
+                        <div>
+                            <div class="products__card wow slideInLeft">
+                                <div class="products__img products__img_left">
+                                </div>
+                                <div class="products__subtitle">
+                                    Шлагбаум BARRIER PRO
+                                </div>
+                                <ul class="products__list">
+                                    <li class="products__item">
+                                        Стойка шлагбаума со встроенным приемником и сигнальной лампой 
+                                    </li>
+                                    <li class="products__item">
+                                        Стрела алюминиевая - длина 4м. 
+                                    </li>
+                                    <li class="products__item">
+                                        Пульт 2-х канальный - 1 шт
+                                    </li>
+                                </ul>
+                                <span class="products__price">
+                                    от 40 000 руб.
+                                </span>
+                                <button class="products__btn" data-toggle="modal" data-target="#myModal2">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="products__card wow slideInUp">
+                                <div class="products__img products__img_center">
+                                </div>
+                                <div class="products__subtitle">
+                                    Цепные Барьеры
+                                </div>
+                                <ul class="products__list">
+                                    <li class="products__item">
+                                        2 тумбы со встроенным приёмником 
+                                    </li>
+                                    <li class="products__item">
+                                        Цепь – 7 или 15 метров 
+                                    </li>
+                                    <li class="products__item">
+                                        Пульт 2х канальный – 1 штука
+                                    </li>
+                                </ul>
+                                <span class="products__price products__price_center">
+                                    от 70 000 руб.
+                                </span>
+                                <button class="products__btn" data-toggle="modal" data-target="#myModal2">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
+                        <div>                   
+                            <div class="products__card wow slideInRight">
+                                <div class="products__img products__img_right">
+                                </div>
+                                <div class="products__subtitle">
+                                    Шлагбаум BFT MOOVI 30 KIT
+                                </div>
+                                <ul class="products__list">
+                                    <li class="products__item">
+                                        Стойка шлагбаума со встроенным приемником 
+                                    </li>
+                                    <li class="products__item">
+                                        Стрела - длина 4, 6 метров 
+                                    </li>
+                                    <li class="products__item">
+                                        Пульт 2х-канальный – 1 штука
+                                    </li>
+                                </ul>
+                                <span class="products__price">
+                                    от 54 000 руб.
+                                </span>
+                                <button class="products__btn" data-toggle="modal" data-target="#myModal2">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="accessories" id="accessories">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="accessories__title wow slideInUp">
+                        Аксессуары
+                    </h2>
+                </div>
+                <div class="owl-carousel">
+                    <div>
+                        <div class="accessories__card wow slideInLeft">
+                            <div class="accessories__img accessories__img_left">
+                            </div>
+                            <div class="accessories__subtitle">
+                                Блок управления GSM-2.0, GSM-2.0
+                            </div>
+                            <p class="accessories__card-text">
+                                GSM-модуль предназначен для приема сигнала с мобильного телефона и его преобразования в команду для управления автоматической системой.
+                            </p>
+                            <span class="accessories__price">
+                                9 800 руб.
+                            </span>
+                            <button class="accessories__btn" data-toggle="modal" data-target="#myModal2">
+                                Заказать
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="accessories__card wow slideInUp">
+                            <div class="accessories__img accessories__img_center">
+                            </div>
+                            <div class="accessories__subtitle">
+                                Пульт управления
+                            </div>
+                            <p class="accessories__card-text">
+                                Пульт управления предназначен для дистанционного управления автоматическими устройствами.
+                            </p>
+                            <span class="accessories__price accessories__price_center">
+                                от 750 руб.
+                            </span>
+                            <button class="accessories__btn" data-toggle="modal" data-target="#myModal2">
+                                Заказать
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="accessories__card wow slideInRight">
+                            <div class="accessories__img accessories__img_right">
+                            </div>
+                            <div class="accessories__subtitle">
+                                Фотоэлементы
+                            </div>
+                            <p class="accessories__card-text">
+                                Устанавливаются во въездные проемы для обеспечения максимальной безопасности использования всех видов цепных барьеров и шлагбаумов.
+                            </p>
+                            <span class="accessories__price accessories__price_right">
+                                от 2 500 руб.
+                            </span>
+                            <button class="accessories__btn" data-toggle="modal" data-target="#myModal2">
+                                Заказать
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer__content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="footer__title wow slideInRight">
+                            Рассчитайте стоимость конструкции прямо сейчас <span>бесплатно</span>!
+                        </h2>
+                        <div class="box__form-wrapper form-wrapper wow slideInLeft">
+                            <form action="success.php" class="js-form box__form footer__form" id="popupResult">
+                                <input type="text" name="tel" required placeholder="Введите контактный номер" autocomplete="off" class="form-control form__field">
+                                <button class="btn__red__bottom act font-bold button box__form-btn">Перезвоните мне</button>
+                            </form>
+                        </div>
+                        <p class="footer__text">
+                            * Заполняя форму, Вы подтверждаете, что ознакомились с "Пользовательским соглашением" и даете "Согласие на обработку персональных данных".
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-mobile__content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="footer__title wow slideInRight">
+                            Получите рассчет сметы <br> по Вашему объекту <span>бесплатно</span>
+                        </h2>
+                        <p class="footer__text">
+                            Выезд в день обращения
+                        </p>
+                        <div class="footer-mobile__form-wrap box-mobile__form-wrapper box__form-wrapper form-wrapper">
+                            <form action="success.php" class="js-form footer-mobile__form box-mobile__form" id="popupResult">
+                                <input type="text" name="tel" required placeholder="Введите контактный номер" autocomplete="off" class="form-control form__field">
+                                <button class="btn__red__bottom act font-bold button box__form-btn">Узнать стоимость</button>
+                            </form>
+                        </div>
+                        <div class="thank footer-thank">
+                            <img src="img/check.png" alt="галочка" class="thank__img">
+                            <p class="thank__text">
+                                Благодарим за доверие! 
+                            </p>
+                            <p class="thank__text2">
+                                В ближайщее время с Вами сважется наш консультант для уточнения деталей.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row align-items-center column">
+                            <div class="d-none d-sm-block col-sm-4 col-lg-4 col-xl-2 d-flex">
+                                <div class="footer__nav-logo">
+                                    DefenSe Line
+                                </div>
+                            </div>
+                            <div class="d-none d-xl-block col-xl-6">
+                                <ul class="footer__nav-list">
+                                    <li class="footer__nav-item centerOut">
+                                        <a href="#why" class="footer__nav-link go">Почему мы </a>
+                                    </li>
+                                    <li class="footer__nav-item centerOut">
+                                        <a href="#projects" class="footer__nav-link go">Наши работы</a>
+                                    </li>
+                                    <li class="header__item">
+                                        <a href="#barrier" class="footer__nav-link go">Для кого</a>
+                                    </li>
+                                    <li class="header__item">
+                                        <a href="#products" class="footer__nav-link go">Продукция</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 d-sm-none">
+                                <div class="footer__nav-copy">
+                                        © defenSe line 2018
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-4 col-lg-4 col-xl-2 d-flex">
+                                <div class="footer__nav-wrap-tel">
+                                    <a href="tel:+79282331110" class="footer__nav-tel">
+                                        <img src="img/footer-tel.svg" alt="tel">
+                                        +79282331110
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="d-none d-sm-block col-sm-4 col-lg-4 col-xl-2">
+                                <div class="footer__nav-copy">
+                                    © defenSe line 2018
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- Modal bootstrap 1 -->
+    <div class="modal fade-modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="form-wrapper">
+                        <div class="form-title">
+                            Заказать звонок
+                        </div>
+                        <img src="img/line.png" alt="линия" class="modal__line">
+                        <!-- Основная форма с полями разного типа -->
+                        <form action="success.php" class="js-form" id="popupResult">
+                            <input type="text" name="target" hidden>
+                            <input type="text" name="name" required placeholder="Имя"  class="form-control form__field">
+                            <input type="text" name="tel" required placeholder="Телефон" autocomplete="off" class="form-control form__field">
+                            <input type="text" name="email" required placeholder="E-mail"  class="form-control form__field">
+                            <button class="btn__red__bottom act font-bold button btn-form" data-parent="Заказать звонок" data-submit>Заказать звонок</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal bootstrap 2-->
+    <div class="modal fade-modal" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="form-wrapper">
+                        <div class="form-title">
+                            Оставьте заявку для расчета сметы по вашему объекту <span> бесплатно </span> 
+                        </div>
+                        <p class="form-text">
+                            Выезд в день обращения
+                        </p>
+                        <!-- Основная форма с полями разного типа -->
+                        <form action="success.php" class="js-form" id="popupResult">
+                            <input type="text" name="target" hidden>
+                            <input type="text" name="tel" required placeholder="Введите контактный номер" autocomplete="off" class="form-control form__field">
+                            <button class="btn__red__bottom act font-bold button btn-form" data-submit>Перезвоните мне</button>
+                        </form>
+                      
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Индикация процесса отправки формы -->
+    <div id="loader">
+        <img src="img/ripple.svg">
+    </div>
+
+    <!-- Сообщение "спасибо" после отправки формы -->
+    <div id="overlay">
+        <div id="thx">
+            <div class="overlay-title">
+                Благодарим за доверие!
+            </div>
+            <div class="overlay-text">
+                В ближайщее время с Вами свяжется наш консультант для обсуждения деталей
+            </div>
+            <button class="modal-btn-close">готово</button>
+        </div>
+    </div>
+
+
+<script src="js/libs.js"></script>
+<script src="js/main.js"></script>
+
+<script type="text/javascript">
+$('.variable-width').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: false,
+  variableWidth: true,
+  prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-angle-left"></i></button>',
+  nextArrow: '<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        slidesToShow: 1,
+        variableWidth: false,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
+
+
+$('.responsive').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 320,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+
+
+
+
+
+
+        $(function() {
+        // Owl Carousel
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+            items: 3,
+            margin: 10,
+            loop: true,
+            dots: false,
+            dotsEach: true,
+            pagination : true,
+            dotsData: true,
+            navText: ['<i class="fa fa-angle-left fa-2x" aria-hidden="true"></i>',
+                    '<i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>'],
+            nav: true,
+            responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        992:{
+            items:3
+        }
+        }
+        });
+        });
+
+
+
+
+
+        wow = new WOW(
+            {
+            boxClass:     'wow',      // default
+            animateClass: 'animated', // default
+            offset:       0,          // default
+            mobile:       false,       // default
+            live:         true        // default
+        }
+        )
+        wow.init();
+  </script>
+
+</body>
+</html>
+

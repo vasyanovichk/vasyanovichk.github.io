@@ -34,3 +34,33 @@ jQuery(document).ready(function($) {
     wow.init();
 
 });
+
+
+
+
+
+
+
+
+
+
+
+function Number(value) {
+    let first = value;
+
+    return {
+        getNumber(){
+            return first;
+        },
+        setNumber(value){
+            first = value;
+        }
+    }
+}
+
+let number1 = new Number(1000);
+
+
+number1.setNumber(2000);
+
+console.log(number1.getNumber())

@@ -1,0 +1,654 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicon -->
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lemon" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/acc0fue.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/solid.css" integrity="sha384-HTDlLIcgXajNzMJv5hiW5s2fwegQng6Hi+fN6t5VAcwO/9qbg2YEANIyKBlqLsiT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/brands.css" integrity="sha384-KtmfosZaF4BaDBojD9RXBSrq5pNEO79xGiggBxf8tsX+w2dBRpVW5o0BPto2Rb2F" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/fontawesome.css" integrity="sha384-8WwquHbb2jqa7gKWSoAwbJBV2Q+/rQRss9UXL5wlvXOZfSodONmVnifo/+5xJIWX" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/libs.min.css?1.00">
+    <link rel="stylesheet" href="css/main.min.css?1.00">
+
+
+</head>
+<body>
+        <!-- Preloader: Start -->
+<div id="page-preloader">
+
+            <div class="cssload-container">
+                    <div class="cssload-circle"></div>
+                    <div class="cssload-circle"></div>
+                </div>
+    
+   </div>
+       <!-- Preloader: Finish -->
+    <div class="relative-skater">
+        <!-- ПЕРВЫЙ ЭКРАН -->
+    <header class="header relative scroll2" id="header">
+        <canvas id="canvas-basic"></canvas>
+        <div class="nav">  
+            <div class="container">
+                <div class="row align-items-center column">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                        <div class="nav__logo">
+                        Agency
+                        </div>
+                    </div>
+                    <div class="d-none d-lg-block col-lg-9 menu-collapse">
+                        <ul class="nav__list menu">
+                            <li class="nav__item centerOut">
+                                <a href="#header" class="nav__link go hover-btn-1">Home</a>
+                            </li>
+                            <li class="nav__item centerOut">
+                                <a href="#about" class="nav__link go hover-btn-1">About us</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#team" class="nav__link go hover-btn-1">Team</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#superiority" class="nav__link go hover-btn-1">Services</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#works" class="nav__link go hover-btn-1">Process</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#client" class="nav__link go hover-btn-1">Clients</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#footer" class="nav__link go hover-btn-1 ">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-none d-sm-block col-sm-4 col-md-6 col-lg-1">
+                        <div class="nav__icons-wrap">
+                            <div class="wrap-search">
+                                <!-- <img src="img/s.png" alt="search"> -->
+                                <!-- <input type="search" placeholder="Поиск..." class="header__search"> -->
+                            </div>
+                            <a href="" class="nav__link-facebook hover-btn-2">
+                                <img src="img/socials/facebook.png" alt="facebook">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-3 col-sm-2 col-sm-2 col-md-2 d-lg-none justify-content-center d-flex">
+                        <button class="menu-open">
+                            <!-- <i class="fa fa-bars"></i> -->   
+                            <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                                <path
+                                        class="line top"
+                                        d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                                <path
+                                        class="line middle"
+                                        d="m 30,50 h 40" />
+                                <path
+                                        class="line bottom"
+                                        d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                            </svg>
+                        </button>
+                        
+                    </div>
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.nav -->
+        <div class="offer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="offer__skater wow fadeInRight parralax-element-1">
+                            <img src="img/skater.png" alt="">
+                        </div>
+                        <div class="offer__wrap ">
+                            <h1 class="offer__title absolute parralax-element-2" data-wow-iteration="5" data-wow-duration="0.15s">
+                                Think <br> outside <br> <span>of the box</span>
+                            </h1>
+                        </div>
+                        <button class="offer__btn wow fadeInUp hover-btn-3">
+                            Read more
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ВТОРОЙ ЭКРАН -->	
+        <section class="about" id="about">
+            <div class="bg-element"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <div class="about__wrap">
+                            <h2 class="about__title wow fadeInUp">
+                                Who we are
+                            </h2>   
+                            <p class="about__text wow fadeInUp">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                            </p>
+                            <button class="about__btn animate-btn wow fadeInUp">
+                                Read more
+                            </button>
+                        </div>
+                    </div>
+                    <div class="d-none d-sm-block col-sm-12 col-md-7">
+                        <img src="img/macbook.png" alt="macbook" class="about__img">
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+    </div>
+    <!-- /.relative-skater -->
+    <div class="bg-wrap">
+        <div class="works__bg-element"></div>
+
+        <!-- ТРЕТИЙ ЭКРАН -->
+        <section class="superiority" id="superiority">
+            <div class="superiority__bg-element"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="superiority__title">
+                            What we do
+                        </h2>
+                    </div>
+                    <!-- superiority-icon1.png -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="superiority__card">
+                            <div class="superiority__wrap">
+                                <img src="img/superiority-icon1.png" class="superiority__img wow fadeInUp" alt="">
+                            </div>
+                            <div class="superiority__wrap-text">
+                                <h3 class="superiority__subtitle">
+                                    Creative Work
+                                </h3>
+                                <p class="superiority__text wow fadeInUp">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="superiority__card">
+                            <div class="superiority__wrap">
+                                <img src="img/superiority-icon2.png" class="superiority__img wow fadeInUp" alt="">
+                            </div>
+                            <div class="superiority__wrap-text">
+                                <h3 class="superiority__subtitle">
+                                    We do Best
+                                </h3>
+                                <p class="superiority__text wow fadeInUp">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="superiority__card">
+                            <div class="superiority__wrap">
+                                <img src="img/superiority-icon3.png" class="superiority__img wow fadeInUp" alt="">
+                            </div>
+                            <div class="superiority__wrap-text">
+                                <h3 class="superiority__subtitle">
+                                    Best Company
+                                </h3>
+                                <p class="superiority__text wow fadeInUp">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="superiority__card">
+                            <div class="superiority__wrap">
+                                <img src="img/superiority-icon4.png" class="superiority__img wow fadeInUp" alt="">
+                            </div>
+                            <div class="superiority__wrap-text">
+                                <h3 class="superiority__subtitle">
+                                    Nice Idea
+                                </h3>
+                                <p class="superiority__text wow fadeInUp">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="superiority__card">
+                            <div class="superiority__wrap">
+                                <img src="img/superiority-icon5.png" class="superiority__img wow fadeInUp" alt="">
+                            </div>
+                            <div class="superiority__wrap-text">
+                                <h3 class="superiority__subtitle">
+                                    Professional
+                                </h3>
+                                <p class="superiority__text wow fadeInUp">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="superiority__card">
+                            <div class="superiority__wrap">
+                                <img src="img/superiority-icon6.png" class="superiority__img wow fadeInUp" alt="">
+                            </div>
+                            <div class="superiority__wrap-text">
+                                <h3 class="superiority__subtitle">
+                                    Great Services
+                                </h3>
+                                <p class="superiority__text wow fadeInUp">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+
+    <!-- ЧЕТВЁРТЫЙ ЭКРАН -->
+        <section class="works" id="works">
+                <div class="works__bg-element-left"></div>
+            <!-- <div class="works__bg-element"></div> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="works__title wow fadeInUp">
+                            How we works
+                        </h2>
+                    </div>
+                    <div class="col-12">
+                        <p class="works__text wow fadeInUp">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                        </p>
+                        <button class="works__btn animate-btn wow fadeInRight">
+                            Read more
+                        </button>
+                    </div>
+                    <div class="col-8">
+                        <ul class="works__list">
+                            <li class="works__item works__item_one">
+                                <span class="works__number wow fadeInRight" data-wow-delay="0.3s">
+                                    1.
+                                </span>
+                                <p class="works__subtitle wow fadeInRight" data-wow-delay="0.6s">
+                                    IDEA
+                                </p>
+                                <p class="works__description">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                                </p>
+                            </li>
+                            <li class="works__item works__item_two">
+                                <span class="works__number wow fadeInRight" data-wow-delay="0.3s">
+                                    2.
+                                </span>
+                                <p class="works__subtitle wow fadeInRight" data-wow-delay="0.6s">
+                                    Design
+                                </p>
+                                <p class="works__description">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                                </p>
+                            </li>
+                            <li class="works__item works__item_three">
+                                <span class="works__number wow fadeInRight" data-wow-delay="0.3s">
+                                    3.
+                                </span>
+                                <p class="works__subtitle wow fadeInRight" data-wow-delay="0.6s">
+                                    Output
+                                </p>
+                                <p class="works__description">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- ПЯТЫЙ ЭКРАН -->
+        <section class="team" id="team">
+            <div class="team__bg-element-mini"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="offset-lg-1 col-lg-10 offset-xl-0 col-xl-12">
+                        <h2 class="team__title wow fadeInUp">
+                            Our creative team
+                        </h2>
+
+                        <div class="owl-carousel owl-theme wow fadeInUp">
+                            <div> <img src="img/team1.png" alt=""> </div>
+                            <div> <img src="img/team2.png" alt=""> </div>
+                            <div> <img src="img/team3.png" alt=""> </div>
+                            <div> <img src="img/team1.png" alt=""> </div>
+                            <div> <img src="img/team2.png" alt=""> </div>
+                            <div> <img src="img/team3.png" alt=""> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    <!-- /.bg-wrap -->
+
+    <div class="relative-bg-client">
+            <div class="client__bg-element"></div>
+
+        <!-- ШЕСТОЙ ЭКРАН -->
+        <section class="client" id="client">
+            <div class="client__bg-element-mini"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="client__title wow fadeInUp">
+                            What client says
+                        </h2>
+                        <div class="tabs">
+                            <ul class="tabs__caption">
+                                <li>
+                                    <img src="img/client1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="img/client2.png" alt="">
+                                </li>
+                                <li class="active">
+                                    <img src="img/client3.png" alt="">
+                                </li>
+                            </ul>
+
+                            <div class="tabs__content  active wow fadeIn">
+                                <div class="tabs__wrapper">
+                                    <img src="img/client1l.png" alt="">
+                                    <span>“</span>
+                                    <div class="tabs__content-wrap">
+                                        <div class="tabs__content-text">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                                        </div>
+                                        <div class="tabs__content-post">
+                                            Jimmy Doe
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="tabs__content">
+                                <div class="tabs__wrapper">
+                                    <img src="img/client2l.png" alt="">
+                                    <span>“</span>
+                                    <div class="tabs__content-wrap">
+                                        <div class="tabs__content-text">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                                        </div>
+                                        <div class="tabs__content-post">
+                                            Jon Brut 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="tabs__content">
+                                <div class="tabs__wrapper">
+                                    <img src="img/client3l.png" alt="">
+                                    <span>“</span>
+                                    <div class="tabs__content-wrap">
+                                        <div class="tabs__content-text">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                                        </div>
+                                        <div class="tabs__content-post">
+                                            Jinny Snow, Company CEO
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- .tabs -->
+                        <div class="client__carousel">
+                            <div class="owl-carousel owl-theme">
+                                <div>  <img src="img/client1l.png" alt="">
+                                    <span>“</span>
+                                    <div class="tabs__content-wrap">
+                                        <div class="tabs__content-text">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
+                                        </div>
+                                        <div class="tabs__content-post">
+                                            Jimmy Doe
+                                        </div>
+                                    </div>
+                                </div>
+                                <div> 
+                                    <img src="img/client2l.png" alt="">
+                                    <span>“</span>
+                                    <div class="tabs__content-wrap">
+                                        <div class="tabs__content-text">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
+                                        </div>
+                                        <div class="tabs__content-post">
+                                            Jon Brut 
+                                        </div>
+                                    </div>    
+                                </div>
+                                <div> 
+                                    <img src="img/client3l.png" alt="">
+                                    <span>“</span>
+                                    <div class="tabs__content-wrap">
+                                        <div class="tabs__content-text">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
+                                        </div>
+                                        <div class="tabs__content-post">
+                                            Jinny Snow, Company CEO
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- СЕДЬМОЙ ЭКРАН -->
+        <footer class="footer" id="footer">
+            <div class="footer__bg-element"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="footer__title wow fadeInUp" data-wow-delay="0.5s">
+                            Get in touch
+                        </h2>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="footer__card">
+                            <div class="footer__wrap-img wow rubberBand" data-wow-delay="1s">
+                                <img src="img/mail.png" alt="mail">
+                            </div>
+                            <div class="footer__wrap-text">
+                                <p class="footer__subtitle">
+                                    Email
+                                </p>
+                                <a href="mailto:info@agency.com" class="footer__mail footer__mail_one">
+                                        <div class="wrapper">
+                                            <div class="inner">
+                                                <a href="" class="hover-shadow hover-color"><span>i</span><span>n</span><span>f</span><span>o</span><span>@</span><span>a</span><span>g</span><span>e</span><span>n</span><span>c</span><span>y</span><span>.</span><span>c</span><span>o</span><span>m</span></a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                <a href="mailto:admin@agency.com" class="footer__mail footer__mail_two">
+                                    <div class="wrapper">
+                                        <div class="inner">
+                                            <a href="" class="hover-shadow hover-color"><span>a</span><span>d</span><span>m</span><span>i</span><span></span><span>n</span><span></span>@</span><span>a</span><span>g</span><span>e</span><span>n</span><span>c</span><span>y</span><span>.</span><span>c</span><span>o</span><span>m</span></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="footer__card footer__card_two">
+                            <div class="footer__wrap-img wow rubberBand" data-wow-delay="1.5s">
+                                <img src="img/phone.png" alt="phone">
+                            </div>
+                            <div class="footer__wrap-text">
+                                <p class="footer__subtitle">
+                                    Phone
+                                </p>
+                                <div class="footer__wrap-tel">
+                                    <a href="tel:+1234567890" class="footer__tel footer__tel_one">
+                                        +123 456 7890
+                                    </a>
+                                    <a href="tel:+1234567890" class="footer__tel footer__tel_two">
+                                        +123 456 7890
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="footer__card footer__card_three">
+                            <div class="footer__wrap-img wow rubberBand" data-wow-delay="2s">
+                                <img src="img/office.png" alt="office">
+                            </div>
+                            <div class="footer__wrap-text">
+                                <p class="footer__subtitle">
+                                    Office
+                                </p>
+                                <p class="footer__card-text">
+                                    123, Main Road, New City, My Country 123456
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="hover-btn-2">
+                                    <img src="img/socials/1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="hover-btn-2">
+                                    <img src="img/socials/2.png" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="hover-btn-2">
+                                    <img src="img/socials/3.png" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="hover-btn-2">
+                                    <img src="img/socials/4.png" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="hover-btn-2">
+                                    <img src="img/socials/5.png" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="hover-btn-2">
+                                    <img src="img/socials/6.png" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="hover-btn-2">
+                                    <img src="img/socials/7.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="footer__line"></div>
+                        <div class="footer__copy">
+                            Copyright © 2019 
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </footer>
+    </div>
+    <!-- /.relative-bg-client -->
+    
+
+    <script src="js/libs.js"></script>
+    <script src="js/main.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script>
+/*
+            // Set options
+            var options = { 
+                offset: '#about',  // с какого момента появляеться шапка, можно указать в px 300, 500, 800 и т.д.
+                offsetSide: 'top',
+                classes: {
+                    clone:   'banner--clone',
+                    stick:   'banner--stick',
+                    unstick: 'banner--unstick'
+                }
+            };
+    
+            // Initialise with options
+            var banner = new Headhesive('.banner', options); // options - переменная выше
+    
+            // Headhesive destroy
+            // banner.destroy();
+
+
+*/
+
+
+
+
+
+    // $(window).scroll(function() {
+    //     if ($(this).scrollTop() > 600){  
+    //         $('.nav').addClass("sticky");
+    //     }
+    //     else{
+    //         $('.nav').removeClass("sticky");
+    //     }
+    //     if ($(this).scrollTop() > 400){  
+    //         $('.nav .nav__btn-shop').removeClass ("d-none");
+    //     }
+    //     else{
+    //         $('.nav .nav__btn-shop').addClass("d-none");
+    //     }
+    // });
+        </script>
+</body>
+</html>
+
+
+
+
